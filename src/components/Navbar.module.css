@@ -1,0 +1,30 @@
+nav > ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  list-style-type: none;
+  background-color: lightgray;
+}
+
+nav > li {
+  font-family: 'Open Sans', cursive;
+}
+
+nav li > img {
+  width:  8.0625em;
+  height: 3.8125em;
+}
+
+nav li > h2 {
+  font-size: 1.4em;
+  font-weight: 400;
+}
+
+nav li > span {
+  font-size: 1.1em;
+}
+
+.burger {
+  color: black;
+}
