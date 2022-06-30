@@ -2,24 +2,24 @@ import logo from "../img/lendavmaalerLogo.svg";
 import { FcMenu } from "react-icons/fc";
 import { IconContext } from "react-icons";
 
-import "./Navbar.module.css";
+import styles from "./Navbar.module.css";
 
 const Navbar = () => {
   return (
-    <nav>
-      <ul>
-        <li>
+    <nav className={styles.nav}>
+      <ul className={styles.nav__ul}>
+        <li className={styles.ul__li}>
           <img src={logo} alt="Lendav Maaler Logo"></img>
         </li>
-        <li>
+        <li className={styles.ul__li}>
           <h2>Book a Table</h2>
         </li>
-        <li>
+        <li className={styles.ul__li}>
           <span>en</span>
         </li>
-        <li>
+        <li className={styles.ul__li}>
           <IconContext.Provider value={{ color: "black" }}>
-            <FcMenu className="burger" size={36} />
+            <FcMenu size={36} />
           </IconContext.Provider>
         </li>
       </ul>
