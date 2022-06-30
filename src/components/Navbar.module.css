@@ -23,6 +23,7 @@
 .ul__li > h2 {
   font-size: 1.4em;
   font-weight: 400;
+  border-bottom: 0.8px solid #000;
 }
 
 .ul__li > span {

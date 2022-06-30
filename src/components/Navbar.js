@@ -1,5 +1,5 @@
 import logo from "../img/lendavmaalerLogo.svg";
-import { FcMenu } from "react-icons/fc";
+import { IoIosMenu } from "react-icons/io";
 import { IconContext } from "react-icons";
 
 import styles from "./Navbar.module.css";
@@ -18,8 +18,8 @@ const Navbar = () => {
           <span>en</span>
         </li>
         <li className={styles.ul__li}>
-          <IconContext.Provider value={{ color: "black" }}>
-            <FcMenu size={36} />
+          <IconContext.Provider value={{ size: "36px" }}>
+            <IoIosMenu />
           </IconContext.Provider>
         </li>
       </ul>
