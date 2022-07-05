@@ -18,3 +18,11 @@
   margin: 0;
   padding: 0;
 }
+
+.flex_row, .flex_column {
+  display: flex;
+}
+
+.flex_column {
+  flex-direction: column;
+}
