@@ -1,0 +1,20 @@
+.nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--padding-mobile);
+}
+
+.nav > a {
+    color: #1d1d1d;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.language_selector {
+    font-weight: bold;
+}
